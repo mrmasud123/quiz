@@ -1,0 +1,103 @@
+.options{
+    position: absolute;
+    width: 11%;
+    display: none;
+}
+.options a {
+    width: 94%;
+}
+.info{
+    display: block !important;
+    top: 57px;
+}
+.options img {
+    width: 100px;
+    height: 100px;
+}
+.content{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9) ,rgba(31, 29, 30, 0.3)), url('../assets/study.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px;
+    box-sizing: border-box;
+}
+.thumbImg {
+    width: 245px;
+    height: 250px;
+}
+
+img.thumbImgWidth {
+    width: 100%;
+}
+.card-header img {
+    width: 50px;
+    border-radius: 50% !important;
+    height: 50px;
+}
+/* #header{
+    background: linear-gradient(90deg, rgba(2,0,36,1) 49%, rgba(7,38,140,1) 81%);
+} */
+div#header {
+    background: rgb(217,197,231);
+    background: linear-gradient(90deg, rgba(217,197,231,1) 0%, rgba(253,29,29,1) 100%);
+}
+body{
+    background: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(182,213,249,1) 100%);
+}
+td.fw-bold.text-center {
+    font-size: 27px;
+}
+.quiz-img {
+    position: absolute;
+}
+
+.quiz-img img {
+    position: absolute;
+    top: 65px;
+    width: 280px;
+    left: -80px;
+}
+
+.quiz-img img{
+    animation-name: img-anim;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+
+@keyframes img-anim {
+    from{
+        width: 280px;
+        transition: 0.5s;
+    }
+    to{
+        width: 350px;
+        transition: all 0.5s;
+    }
+}
+
+.message {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width:auto;
+    background: cadetblue;
+    padding: 5px 10px;
+    font-size: 18px;
+    border-radius: 10px;
+    display: none;
+}
+
+.all-items {
+    width: 50%;
+    display: flex
+    ;align-items: center;
+    height: 100vh;
+}
+.box{
+    box-sizing: content-box;
+    margin:5px 0;
+}
+
